@@ -1,11 +1,25 @@
 if __name__ == '__main__':
     """
-    Ένα κατάστημα προσφέρει 10 άτοκες μηνιαίες δόσεις στα προϊόντα του. 
+    emfanise("plhktrologise  timi proiontos")
+    timi proiontos = diavase tin timi pou tha plhktrologithi
+    emfanise ('h timi proiontos einai' + timi proiontos) 
     """
-    print('Type product price: ')
-    productPrice = input()
-    print('The product price is ' + productPrice)
+    print('Type product price in euros: ')
+    product_price = input()
+    print('The product price is ' + product_price + ' euros.')
 
-    floatProductPrice = float(productPrice)
-    valueAddedTax = (24 / 100) * floatProductPrice
-    print('The value added tax is ' + str(valueAddedTax))
+    """
+    metetrepse se dekadiko thn timi tou proiontos 
+    Φ.Π.Α = (epitokio/100)/timiproiontos
+    emfanise to Φ.Π.Α 
+    """
+    float_product_price = float(product_price)
+    value_added_tax = (24 / 100) * float_product_price
+    print('The value added tax is ' + str(value_added_tax) + ' euros.')
+
+    """
+    timi_minieas_dosi = (timi_prointos + value_added_tax) / sinolikes_doseis
+    emfanise timi_minieas_dosis   
+    """
+    monthly_instalment_price = (float_product_price + value_added_tax) / 10
+    print('The monthly instalment price is ' + str(monthly_instalment_price) + ' euros.')
