@@ -23,3 +23,10 @@ if __name__ == '__main__':
     """
     monthly_instalment_price = (float_product_price + value_added_tax) / 10
     print('The monthly instalment price is ' + str(monthly_instalment_price) + ' euros.')
+
+    """
+    sinoliki_aksia_proiontos = timi_minieas_dosi * 10
+    emfanise sinoliki_aksia_proiontos
+    """
+    total_product_price = monthly_instalment_price * 10
+    print('Total product price is ' + str(total_product_price) + ' euros.')

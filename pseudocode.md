@@ -14,4 +14,9 @@ emfanise to F.P.A
 
 timi_minieas_dosi = (timi_prointos + value_added_tax) / sinolikes_doseis
 emfanise timi_minieas_dosis   
+
+sinoliki_aksia_proiontos = timi_minieas_dosi * 10
+emfanise sinoliki_aksia_proiontos
 ```
+
+
