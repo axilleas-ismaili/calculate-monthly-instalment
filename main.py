@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     """
     metetrepse se dekadiko thn timi tou proiontos 
-    Φ.Π.Α = (epitokio/100)/timiproiontos
+    Φ.Π.Α = (epitokio/100)*timiproiontos
     emfanise to Φ.Π.Α 
     """
     float_product_price = float(product_price)
